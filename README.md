@@ -40,6 +40,7 @@ RegisterNumber:24006054
 */
 ```
 (ii) To find the LU Decomposition of a matrix
+
 ```
 import numpy as np
 from scipy.linalg import lu_factor,lu_solve
@@ -48,12 +49,6 @@ b=np.array(eval(input()))
 lu,piv=lu_factor(A)
 X=lu_solve((lu,piv),b)
 print(X)
-```
-/*
-Program to find the LU Decomposition of a matrix.
-Developed by: Muthu Poornima.P
-RegisterNumber: 24006054
-*/
 ```
 
 ## Output:
